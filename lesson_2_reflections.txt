@@ -5,3 +5,19 @@ When you initialize a directory, git starts tracking changes to added files in t
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area allows you to choose which files you would like to group together to commit as a group.  It allows you to make changes before "commmiting" to a commit.  Helps to keep your log cleaner.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can review the staging area to review before committing and only adding those changes that are logically related to commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+You can label some major milestones or features along the way and if you needed to test out a change, you could separate that from the master until you are ready to introduce the feature to the main program.
+
+How do the diagrams help you visualize the branch structure?
+
+You see where the commits took on separate branches more easily and which commits are not reachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together will compare the changes in each branch and combine them into one branch, allowing us to delete the branch when no longer needed.  We represent it in the diagram to visualize how the two divergent branches came together incorporating each of its changes.
